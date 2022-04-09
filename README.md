@@ -26,6 +26,7 @@ Some moduls are barely tested in reliability with unexpected input.
     + cntLineNoSkip <file>
     + readLine <file> <lineNumber>
     + readLineNoSkip <file> <lineNumber>
+    + isFile <file>
   ### str
     + cntToken <string> <delimiter>
     + getToken <string> <delimiter> <TokenNumber>
