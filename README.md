@@ -2,7 +2,7 @@
 Subroutines for BatchScripts
 
 
-QUICK VIEW
+#QUICK VIEW
   ::file
     - cntLine "file"
     - cntLineNoSkip "file"
