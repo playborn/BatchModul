@@ -3,12 +3,12 @@ Subroutines for BatchScripts
 
 
 #QUICK VIEW
-  ::file
+  file
     - cntLine "file"
     - cntLineNoSkip "file"
     - readLine "file" "lineNumber"
     - readLineNoSkip "file" "lineNumber"
-  ::str
+  str
     - cntToken "string" "delimiter"
     - getToken "string" "delimiter" "TokenNumber"
     - len "string"
