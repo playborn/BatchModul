@@ -5,7 +5,7 @@ I hope some moduls are usefull for someone.
 Attention with special chars like !"§$%&/()= if you have to process this it can be very unstable
 Make sure to double quote every parameter to avoid problems with spaces and things.
 
-# HOW TO USE
+### HOW TO USE
   call a modul with it's needed parameters
   RESERVED VARS: return,errorlevel
   every modul gives an errorlevel.  0 is good 0< could be a error or information see errorlevel list
@@ -20,26 +20,26 @@ Make sure to double quote every parameter to avoid problems with spaces and thin
 Some moduls are barely tested in reliability with unexpected input.
 
 
-#QUICK VIEW
-  file
-    - cntLine "file"
-    - cntLineNoSkip "file"
-    - readLine "file" "lineNumber"
-    - readLineNoSkip "file" "lineNumber"
-  str
-    - cntToken "string" "delimiter"
-    - getToken "string" "delimiter" "TokenNumber"
-    - len "string"
+# MODUL QUICK INFO
+  ### file
+    + cntLine <file>
+    + cntLineNoSkip <file>
+    + readLine <file> <lineNumber>
+    + readLineNoSkip <file> <lineNumber>
+  ### str
+    + cntToken <string> <delimiter>
+    + getToken <string> <delimiter> <TokenNumber>
+    + len <string>
     
     
-#ERRORLEVEL
+# ERRORLEVEL
 
-  	1	PARAMETER MISSING OR WRONG FORMAT 
-	2	FILE NOT FOUND OR NO ACCESS
-	3	Path NOT FOUND OR NO ACCESS
-	4	COULD NOT ASSIGN INTEGER, MISSING OR OVERFLOW
-	5	COULD NOT ASSIGN STRING, MISSING OR OVERFLOW
-	6 	LIST OUT OF RANGE, OR OVERFLOW
+  	1 PARAMETER MISSING OR WRONG FORMAT 
+	2 FILE NOT FOUND OR NO ACCESS
+	3 Path NOT FOUND OR NO ACCESS
+	4 COULD NOT ASSIGN INTEGER, MISSING OR OVERFLOW
+	5 COULD NOT ASSIGN STRING, MISSING OR OVERFLOW
+	6 LIST OUT OF RANGE, OR OVERFLOW
 	7 -
 	8 -
 	9 -
