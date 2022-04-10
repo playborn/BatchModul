@@ -11,8 +11,8 @@ I hope some moduls are usefull for someone.
 |--|--|--|--|--|
 |cntLines  |"file"|(SLOW)Count lines in a text File *skips empty lines|INT|-|
 |cntLinesNoSkip|"file"|(FAST)Count lines in a text File *also empty lines|INT|-|
-|readLine|"file" "lineNumber"|(FAST)read a line in a file. Index Base 1 *skips empty lines|INT|-|
-|readLineNoSkip|"file" "lineNumber"|read a line in a file. Index Base 1 *empty lines will be recognized|INT|-|
+|readLine|"file" "lineNumber"|(FAST)read a line in a file. Index Base 1 *skips empty lines|STR|-|
+|readLineNoSkip|"file" "lineNumber"|read a line in a file. Index Base 1 *empty lines will be recognized|STR|-|
 |isFile|"file"|Check if a path leads to a file|true or false|-|
 
   ## str
