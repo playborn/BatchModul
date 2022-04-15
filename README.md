@@ -25,7 +25,7 @@ I hope some moduls are usefull for someone.
 ## tui
 | Modul Name|-Parameter-|Description|RETURN|ERRORLEVEL'S|
 |--|--|--|--|--|
-|select|"file" "itemsPerPage" "InfoString" "preselectIndex" |Let's a user select a line from a file and returns the selection|(str)value,(int)index,(NUL)return|-|
+|select|"file" "itemsPerPage" "InfoString" "preselectIndex" |Let's a user select a line from a file and returns the selection. Can be used as a menu|(str)value,(int)index,(NUL)return|-|
 # ERRORLEVEL
 | ERRLVL| DESCRIPTION  |
 |--|--|
