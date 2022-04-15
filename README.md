@@ -13,7 +13,7 @@ I hope some moduls are usefull for someone.
 |cntLinesNoSkip|"file"|(FAST)Count lines in a text File *empty lines will be recognized|(INT)return|-|
 |readLine|"file" "lineNumber"|(FAST)read a line in a file. Index Base 1 *skips empty lines|(STR)return|-|
 |readLineNoSkip|"file" "lineNumber"|(SLOW)read a line in a file. Index Base 1 *empty lines will be recognized|(STR)return|-|
-|isFile|"file"|Check if a path leads to a file|true or false|-|
+|isFile|"file"|Check if a path leads to a file|(bool)return|-|
 
   ## str
 | Modul Name|-Parameter-|Description|RETURN|ERRORLEVEL'S|
