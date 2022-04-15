@@ -9,23 +9,23 @@ I hope some moduls are usefull for someone.
   
 | Modul Name |-Parameter-|Description|RETURN|ERRORLEVEL'S
 |--|--|--|--|--|
-|cntLines  |"file"|(SLOW)Count lines in a text File *skips empty lines|INT|-|
-|cntLinesNoSkip|"file"|(FAST)Count lines in a text File *empty lines will be recognized|INT|-|
-|readLine|"file" "lineNumber"|(FAST)read a line in a file. Index Base 1 *skips empty lines|STR|-|
-|readLineNoSkip|"file" "lineNumber"|(SLOW)read a line in a file. Index Base 1 *empty lines will be recognized|STR|-|
+|cntLines  |"file"|(SLOW)Count lines in a text File *skips empty lines|(int)return|-|
+|cntLinesNoSkip|"file"|(FAST)Count lines in a text File *empty lines will be recognized|(INT)return|-|
+|readLine|"file" "lineNumber"|(FAST)read a line in a file. Index Base 1 *skips empty lines|(STR)return|-|
+|readLineNoSkip|"file" "lineNumber"|(SLOW)read a line in a file. Index Base 1 *empty lines will be recognized|(STR)return|-|
 |isFile|"file"|Check if a path leads to a file|true or false|-|
 
   ## str
 | Modul Name|-Parameter-|Description|RETURN|ERRORLEVEL'S|
 |--|--|--|--|--|
-|cntToken|"string" "delimiterChar"|Count tokens in a CSV string|INT|-|
-|getToken|"string" "delimiterChar" "TokenNumber"|Get a specific token from a CSV String|STR|-|
-|len|"string"|returns the length of a string|INT|-| 
+|cntToken|"string" "delimiterChar"|Count tokens in a CSV string|(INT)return|-|
+|getToken|"string" "delimiterChar" "TokenNumber"|Get a specific token from a CSV String|(STR)return|-|
+|len|"string"|returns the length of a string|(INT)return|-| 
 
 ## tui
 | Modul Name|-Parameter-|Description|RETURN|ERRORLEVEL'S|
 |--|--|--|--|--|
-|select|"file" "itemsPerPage" "InfoString" "preselectIndex" |Let's a user select a line from a file and returns the selection|value,index,return|-|
+|select|"file" "itemsPerPage" "InfoString" "preselectIndex" |Let's a user select a line from a file and returns the selection|(str)value,(int)index,(NUL)return|-|
 # ERRORLEVEL
 | ERRLVL| DESCRIPTION  |
 |--|--|
