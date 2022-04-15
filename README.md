@@ -21,7 +21,11 @@ I hope some moduls are usefull for someone.
 |cntToken|"string" "delimiterChar"|Count tokens in a CSV string|INT|-|
 |getToken|"string" "delimiterChar" "TokenNumber"|Get a specific token from a CSV String|STR|-|
 |len|"string"|returns the length of a string|INT|-| 
-    
+
+## tui
+| Modul Name|-Parameter-|Description|RETURN|ERRORLEVEL'S|
+|--|--|--|--|--|
+|select|"file" "itemsPerPage" "InfoString" "preselectIndex" |Let's a user select a line from a file and returns the selection|value,index,return|-|
 # ERRORLEVEL
 | ERRLVL| DESCRIPTION  |
 |--|--|
