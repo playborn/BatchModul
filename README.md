@@ -42,3 +42,4 @@ I hope some moduls are usefull for someone.
 |7| -
 |8| -
 |9| -
+|10| Processing error, a value cant be processed or is corrupted
