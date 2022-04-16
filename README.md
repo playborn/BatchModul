@@ -21,7 +21,10 @@ I hope some moduls are usefull for someone.
 |cntToken|"string" "delimiterChar"|Count tokens in a CSV string|(INT)return|-|
 |getToken|"string" "delimiterChar" "TokenNumber"|Get a specific token from a CSV String|(STR)return|-|
 |len|"string"|returns the length of a string|(INT)return|-| 
-
+## int
+| Modul Name|-Parameter-|Description|RETURN|ERRORLEVEL'S|
+|--|--|--|--|--|
+|random|"minINT" "maxINT"|returns a limited random number|(INT)return|-|
 ## tui
 | Modul Name|-Parameter-|Description|RETURN|ERRORLEVEL'S|
 |--|--|--|--|--|
