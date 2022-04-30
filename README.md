@@ -16,11 +16,12 @@ I hope some moduls are usefull for someone.
 |isFile|"file"|Check if a path leads to a file|(bool)return|-|
 
   ## str
-| Modul Name|-Parameter-|Description|RETURN|ERRORLEVEL'S|
+| Modul Name|-Parameter-|Description|RETURN|INFO|
 |--|--|--|--|--|
 |cntToken|"string" "delimiterChar"|Count tokens in a CSV string|(INT)return|-|
 |getToken|"string" "delimiterChar" "TokenNumber"|Get a specific token from a CSV String|(STR)return|-|
-|len|"string"|returns the length of a string|(INT)return|-| 
+|len|"string"|returns the char count of a string|(INT)return|-| 
+|byteLen|"string"|returns the byte length of a string, depend on codepage|(INT)return|-|
 ## int
 | Modul Name|-Parameter-|Description|RETURN|ERRORLEVEL'S|
 |--|--|--|--|--|
