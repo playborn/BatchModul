@@ -23,7 +23,7 @@ Works for me on Windows 10
 |getToken|"string" "delimiterChar" "TokenNumber"|Get a specific token from a CSV String|(STR)return|-|
 |len|"string"|returns the char count of a string|(INT)return|-| 
 |byteLen|"string"|returns the byte length of a string, depend on codepage|(INT)return|-|
-|reSize|"string" "lenghtINT" "spaceChars"|(STR)return|-|
+|reSize|"string" "lenghtINT" "spaceChars"|string padding left,right,center|(STR)return|-|
 ## int
 | Modul Name|-Parameter-|Description|RETURN|ERRORLEVEL'S|
 |--|--|--|--|--|
