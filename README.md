@@ -1,6 +1,7 @@
 # DOCUMENTATION
 ## General
-I hope some moduls are usefull for someone.  
+I hope some moduls are usefull for someone.
+Works for me on Windows 10
 ##### Attention with special chars like !"§$%&/()= if you have to process this it can be very unstable  
 ##### Make sure to double quote every parameter to avoid problems with spaces and things.  
 
